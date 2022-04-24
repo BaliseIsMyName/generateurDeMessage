@@ -13,6 +13,7 @@ fonctions:
 ----------
 - doit générer un message alétoire dès l'ouverture
 - doit contenir 3 bases de données
+- stockage dans des fichiers JSON
 - un bouton pour générer un autre message
 - une quatrième base de données avec des noms de personnages célébres
 
