@@ -7,7 +7,7 @@ const button = document.querySelector("#rectangle");
 const text1Data = "text1.json";
 const text2Data = "text2.json";
 const text3Data = "text3.json";
-const signaturesData = "signatruresData.json";
+const signaturesData = "signaturesData.json";
 
 let nombrePrecedent = 0;
 
@@ -40,8 +40,6 @@ function message(text, jsonObject, numeroAléatoire) {
 
 function nombreAleatoire(length){
     const randomNumber = Math.floor(Math.random() * length + 1 );
-    nombrePrecedent = randomNumber;
-    console.log(nombrePrecedent);
     return randomNumber;
 }
 
