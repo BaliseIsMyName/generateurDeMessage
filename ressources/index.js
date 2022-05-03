@@ -19,7 +19,7 @@ button.addEventListener('click', () => {
 });
 
 function requestData(file, text){
-    const requestDataText1 = `../ressources/dataMessages/${file}`;
+    const requestDataText1 = `./ressources/dataMessages/${file}`;
     const request = new XMLHttpRequest();
     
     request.open('GET', requestDataText1);
